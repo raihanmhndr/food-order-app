@@ -1,0 +1,37 @@
+.home{
+    height: 90vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.headerContainer{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  }
+
+.headerContainer Button{
+    justify-content: center;
+    margin: 20px auto 20px auto;
+}
+
+.headerContainer Button:hover {
+    background-color: #07090a;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
